@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import ToDoList from './components/ToDoList';
 import Calculator from './components/Calculator';
+import EnhanceWrapper from './components/EnhanceWrapper';
 class App extends Component {
   render() {
     return (
@@ -23,7 +24,7 @@ class App extends Component {
         </header> */}
         <ToDoList></ToDoList>
         <Calculator></Calculator>
-
+        <EnhanceWrapper></EnhanceWrapper>
       </div>
     );
   }
